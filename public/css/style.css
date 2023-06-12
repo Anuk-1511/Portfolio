@@ -105,7 +105,7 @@ header.shadow {
 }
 .home-img img {
   
-  border-width: 100px; border-radius: 50px; margin-top:100px;margin-left:50px; width: 400px;height: 500px;
+  border-width: 100px; border-radius: 50px; margin-top:100px;margin-left:50px; width: 300px;height: 400px;
 }
 .home-text span {
   font-size: var(--medium-font);
