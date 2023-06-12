@@ -105,7 +105,11 @@ header.shadow {
 }
 .home-img img {
   
-  border-width: 100px; border-radius: 50px; margin-top:100px;margin-left:50px; width: 300px;height: 400px;
+  border-width: 100px; 
+  border-radius: 50px; 
+  margin-top:100px;
+  margin-left:50px; 
+  width: 300px;height: 400px;
 }
 .home-text span {
   font-size: var(--medium-font);
@@ -446,6 +450,10 @@ form textarea {
   .home-img {
     order: initial;
   }
+  .home-img img {
+    width: 260px;
+    height: 370px;
+  }
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -488,6 +496,10 @@ form textarea {
     font-size: 0.9rem;
     font-weight: 500;
   }
+  .home-img img {
+    width: 200px;
+    height: 300px;
+  }
   .information .info-box span {
     font-size: 1rem;
   }
@@ -528,6 +540,10 @@ form textarea {
   .contact-button {
     margin-left: auto;
     margin-right: auto;
+  }
+  .home-img img {
+    width: 240px;
+    height: 350px;
   }
 }
 /* Mobile Screen */
@@ -580,6 +596,11 @@ form textarea {
   }
   .home-img {
     order: initial;
+    
+  }
+  .home-img img {
+    width: 220px;
+    height: 340px;
   }
   .about-container {
     grid-template-columns: 1fr;
