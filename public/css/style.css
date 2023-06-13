@@ -149,7 +149,12 @@ header.shadow {
 .btn:hover {
   background: var(--hover);
 }
- 
+
+#gfg{
+  display: flex;justify-content: center;align-items: center;}
+#gfg1{
+  width:800px;
+}
 
 .about-container {
 
@@ -482,10 +487,9 @@ form textarea {
     margin-right: auto;
   }
 }
-.data img{
-  width: 100%;
+#gfg1{
+  width: 550px;
   height: 100%;
-  object-fit: cover;
 }
 
 /* Small Mobile Screen */
@@ -521,9 +525,10 @@ form textarea {
     margin-right: auto;
   }
 }
-.data img{
-  width: 200px;
-  height: auto;
+#gfg1{
+  width: 300px;
+  height: 100%;
+  
 }
 
 /* 600px Screen */
@@ -556,8 +561,8 @@ form textarea {
   }
 }
 
-.data img{
-  width: 300px;
+#gfg1{
+  width: 500px;
   height: 100%;
 }
 /* Mobile Screen */
@@ -648,4 +653,5 @@ form textarea {
 .data img{
   width: 300px;
   height: 100%;
+
 }
