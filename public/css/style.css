@@ -668,6 +668,7 @@ form textarea {
 /* Media query for 768px */
 @media (max-width: 768px) {
   .card {
-    width: 350px;
+    width: 350px; 
+    margin-right: 10px;
   }
 }
