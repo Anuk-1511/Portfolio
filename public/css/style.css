@@ -150,11 +150,8 @@ header.shadow {
   background: var(--hover);
 }
 
-#gfg{
-  display: flex;justify-content: center;align-items: center;}
-#gfg1{
-  width:800px;
-}
+
+
 
 .about-container {
 
@@ -487,10 +484,7 @@ form textarea {
     margin-right: auto;
   }
 }
-#gfg1{
-  width: 550px;
-  height: 100%;
-}
+
 
 /* Small Mobile Screen */
 @media (max-width: 340px) {
@@ -525,11 +519,7 @@ form textarea {
     margin-right: auto;
   }
 }
-#gfg1{
-  width: 300px;
-  height: 100%;
-  
-}
+
 
 /* 600px Screen */
 @media (max-width: 600px) {
@@ -561,10 +551,6 @@ form textarea {
   }
 }
 
-#gfg1{
-  width: 500px;
-  height: 100%;
-}
 /* Mobile Screen */
 @media (max-width: 480px) {
   :root {
@@ -650,8 +636,38 @@ form textarea {
   }
 }
 
-.data img{
-  width: 300px;
-  height: 100%;
+.card {
+  width: 550px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 0 auto;
+}
 
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Media query for 480px */
+@media (max-width: 480px) {
+  .card {
+    width: 300px;
+  }
+}
+
+/* Media query for 340px */
+@media (max-width: 340px) {
+  .card {
+    width: 250px;
+  }
+}
+
+/* Media query for 768px */
+@media (max-width: 768px) {
+  .card {
+    width: 450px;
+  }
 }
