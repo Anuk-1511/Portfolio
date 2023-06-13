@@ -145,7 +145,7 @@
         <div class="heading">
             <h2>Projects</h2>
             <span>My Recent Work</span><br>
-            <span>Click On Image to Visit the Projects </span>
+            <span>Click On Image to Visit the Porjects </span>
         </div>
         <div class="portfolio-content">
             <div class="portfolio-img">
@@ -171,6 +171,46 @@
                 </a>
             </div>            
         </div>
+        
+    </section>
+
+    <section>
+        <div class="heading">
+            <h2>Leetcode</h2>
+            <span>My Leetcode Profile</span>
+            <br>
+            <span>Click on Below Image to Visit the Leetcode profile</span>
+            <br><br>
+
+                </div>
+    <div id="dataContainer" style="display: flex;
+    justify-content: center;
+    align-items: center;" onclick="window.open('https://leetcode.com/Anuk1511/', '_blank');"></div>
+
+    <script>
+        // Fetch the data from the provided URL
+        fetch('https://leetcard.jacoblin.cool/Anuk1511?theme=dark,heatmap')
+            .then(response => response.text())
+            .then(data => {
+                // Display the data in the dataContainer div
+                document.getElementById('dataContainer').innerHTML = data;
+            })
+            .catch(error => console.error(error));
+
+    </script>
+
+<div class="heading">
+    <br>
+    <h2>GeeksforGeeks</h2>
+    <span>My GFG Profile</span>
+    <br>
+    <span>Click on Below Image to Visit the GFG profile</span>
+    <br><br>
+
+        </div>
+<div id="dataContainer" style="display: flex;justify-content: center;align-items: center;" onclick="window.open('https://auth.geeksforgeeks.org/user/anubhavkumar10/practice', '_blank');">
+    <img src="/image/gfg.jpg" style="width:550px;"alt="" >
+</div>
     </section>
     <!-- Contact -->
     <section class="contact" id="contact">
