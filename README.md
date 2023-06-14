@@ -39,6 +39,10 @@ This is a portfolio website built using Node.js, HTML, CSS, and JavaScript. It i
 4. Start the server: `node app.js`
 5. Open your web browser and visit `http://localhost:8080` to see the portfolio website.
 
+## Deployed Site
+
+The portfolio website is deployed and can be accessed at [[https://portfolio-snaf.onrender.com/](https://portfolio-snaf.onrender.com/)].
+
 ## Folder Structure
 
 - **certificate**: Store your certification files in this directory.
