@@ -65,7 +65,8 @@ The following dependencies are included in the `package.json` file:
 - express: Fast, unopinionated, minimalist web framework for Node.js.
 - nodemon: Monitor changes in your Node.js application and automatically restart the server.
 
-You can add more dependencies as per your project requirements by updating the `package.json` file and running `npm install`.
+You can add more dependencies as per your project requirements by updating the `package.json` file and running `npm install`.![1](https://github.com/Anuk-1511/Portfolio/assets/61133543/a0663ad8-c9fb-438c-8062-50ddbfe173a0)
+
 
 ## License
 
