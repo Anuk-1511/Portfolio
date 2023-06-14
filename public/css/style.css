@@ -671,6 +671,11 @@ form textarea {
     width: 400px;
   }
 }
+@media (min-width:769px) and ( max-width: 900px) {
+  .card {
+    width: 400px;
+  }
+}
 
 .mySlides {display: none}
 .certificate-image {vertical-align: middle;
