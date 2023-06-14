@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a portfolio website built using Node.js, HTML, CSS, and JavaScript. It includes sections such as Home, About, Skills, Projects, Coding Platform Stats, Certification Gallery, and Contact Us, all on a single webpage.
+This is a portfolio website built using Node.js, HTML, CSS, and JavaScript. It includes sections such as Home, About, Skills, Projects, Coding Platform Stats, Certification Gallery, and Contact Us.
 
 ## Features
 
@@ -34,10 +34,10 @@ This is a portfolio website built using Node.js, HTML, CSS, and JavaScript. It i
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/your-username/portfolio-website.git`
-2. Navigate to the project directory: `cd portfolio-website`
+2. Navigate to the project directory: `cd Portfolio`
 3. Install the dependencies: `npm install`
 4. Start the server: `node app.js`
-5. Open your web browser and visit `http://localhost:3000` to see the portfolio website.
+5. Open your web browser and visit `http://localhost:8080` to see the portfolio website.
 
 ## Folder Structure
 
