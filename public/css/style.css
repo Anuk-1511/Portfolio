@@ -652,26 +652,26 @@ form textarea {
 
 
 /* Media query for 480px */
-@media (min-width:341px) and(max-width: 480px) {
+@media only screen and  (min-width:341px) and(max-width: 480px) {
   .card {
     width: 300px;
   }
 }
 
 /* Media query for 340px */
-@media (min-width:1px) and (max-width: 340px) {
+@media only screen and (min-width:1px) and (max-width: 340px) {
   .card {
     width: 250px;
   }
 }
 
 /* Media query for 768px */
-@media (min-width:481px) and ( max-width: 768px) {
+@media only screen and (min-width:481px) and ( max-width: 768px) {
   .card {
     width: 400px;
   }
 }
-@media (min-width:769px) and ( max-width: 900px) {
+@media only screen and (min-width:769px) and ( max-width: 900px) {
   .card {
     width: 400px;
   }
