@@ -39,10 +39,6 @@ This is a portfolio website built using Node.js, HTML, CSS, and JavaScript. It i
 4. Start the server: `node app.js`
 5. Open your web browser and visit `http://localhost:8080` to see the portfolio website.
 
-## Deployed Site
-
-The portfolio website is deployed and can be accessed at [[https://portfolio-snaf.onrender.com/](https://portfolio-snaf.onrender.com/)].
-
 ## Folder Structure
 
 - **certificate**: Store your certification files in this directory.
@@ -65,8 +61,24 @@ The following dependencies are included in the `package.json` file:
 - express: Fast, unopinionated, minimalist web framework for Node.js.
 - nodemon: Monitor changes in your Node.js application and automatically restart the server.
 
-You can add more dependencies as per your project requirements by updating the `package.json` file and running `npm install`.![1](https://github.com/Anuk-1511/Portfolio/assets/61133543/a0663ad8-c9fb-438c-8062-50ddbfe173a0)
+You can add more dependencies as per your project requirements by updating the `package.json` file and running `npm install`.
 
+## Deployed Site
+
+The portfolio website is deployed and can be accessed at [[https://portfolio-snaf.onrender.com/](https://portfolio-snaf.onrender.com/)].
+![1](https://github.com/Anuk-1511/Portfolio/assets/61133543/f4dd4df2-55e1-459d-b8a4-904da1e1850c)
+
+![2](https://github.com/Anuk-1511/Portfolio/assets/61133543/934f2043-3dc6-4a76-9b5f-2412154590d4)
+
+![3](https://github.com/Anuk-1511/Portfolio/assets/61133543/9da43e5f-0c4a-433c-bf3b-8184f23c3860)
+
+![4](https://github.com/Anuk-1511/Portfolio/assets/61133543/51bd55ca-af97-4573-b1fc-4833deebc118)
+
+![5](https://github.com/Anuk-1511/Portfolio/assets/61133543/81d94710-4985-4334-84b4-1fc731922d86)
+
+![6](https://github.com/Anuk-1511/Portfolio/assets/61133543/4a7d7f56-7c08-4316-8041-bfb7584fa09d)
+
+![7](https://github.com/Anuk-1511/Portfolio/assets/61133543/cd3a20aa-59f9-4189-9149-68e58e664a17)
 
 ## License
 
