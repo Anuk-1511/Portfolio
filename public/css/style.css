@@ -668,10 +668,10 @@ form textarea {
 /* Media query for 768px */
 @media only screen and (min-width:481px) and ( max-width: 768px) {
   .card {
-    width: 400px;
+    width: 350px;
   }
 }
-@media only screen and (min-width:769px) and ( max-width: 900px) {
+@media only screen and (min-width:769px) and ( max-width: 1200px) {
   .card {
     width: 400px;
   }
