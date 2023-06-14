@@ -25,6 +25,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Project</a></li>
             <li><a href="#coding">Coding</a></li>
+            <li><a href="#certificate">Certificates</a></li>
             <li><a href="#contact">Contact</a></li>
             <div class="bx bx-moon" id="darkmode"></div>
         </ul>
@@ -248,6 +249,113 @@ align-items: center;">
 </div>
 
     </section>
+    <section class="certificate" id="certificate">
+        <div class="heading">
+            <h2>Certificates</h2>
+            <br>
+             <span>Click on Below Image to Preview the Certificates</span>
+            <br><br>
+            </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="/certificate/1.jpg" class="certificate-image" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="/certificate/2.jpg" class="certificate-image" style="width:100%">
+             
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="/certificate/3.jpg" class="certificate-image" style="width:100%">
+             
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 3</div>
+              <img src="/certificate/4.jpg" class="certificate-image" style="width:100%">
+             
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 3</div>
+              <img src="/certificate/5.jpg" class="certificate-image" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 3</div>
+              <img src="/certificate/6.jpg" class="certificate-image" style="width:100%">
+            
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 3</div>
+              <img src="/certificate/7.jpg" class="certificate-image" style="width:100%">
+             
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">8 / 3</div>
+              <img src="/certificate/8.jpg" class="certificate-image" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">9 / 3</div>
+              <img src="/certificate/9.jpg" class="certificate-image" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">10 / 3</div>
+              <img src="/certificate/10.jpg" class="certificate-image" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">11 / 3</div>
+              <img src="/certificate/11.jpg" class="certificate-image" style="width:100%">
+            
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">12 / 3</div>
+              <img src="/certificate/12.jpg" class="certificate-image" style="width:100%">
+            
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">13 / 3</div>
+              <img src="/certificate/13.jpg" class="certificate-image" style="width:100%">
+            
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">14 / 3</div>
+              <img src="/certificate/14.jpg" class="certificate-image" style="width:100%">
+              
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">15 / 3</div>
+              <img src="/certificate/15.jpg" class="certificate-image" style="width:100%">
+             
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">16 / 3</div>
+              <img src="/certificate/16.jpg" class="certificate-image" style="width:100%">
+             
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <div class="modal">
+                <span class="close-button">&times;</span>
+                <img class="modal-image" alt="Preview">
+              </div>
+    </section>
     <!-- Contact -->
     <section class="contact" id="contact">
         <div class="heading">
@@ -283,5 +391,52 @@ align-items: center;">
  
     <!-- Link To JS -->
     <script src="/js/script.js"></script>
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+const images = document.querySelectorAll('.certificate-image');
+    const modal = document.querySelector('.modal');
+    const modalImage = document.querySelector('.modal-image');
+    const closeButton = document.querySelector('.close-button');
+
+    images.forEach(image => {
+      image.addEventListener('click', () => {
+        const src = image.getAttribute('src');
+        const alt = image.getAttribute('alt');
+        modalImage.setAttribute('src', src);
+        modalImage.setAttribute('alt', alt);
+        modal.style.display = 'block';
+      });
+    });
+
+    closeButton.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+    </script>
 </body>
 </html>
