@@ -67,7 +67,7 @@ You can add more dependencies as per your project requirements by updating the `
 
 The portfolio website is deployed and can be accessed at [[https://portfolio-snaf.onrender.com/](https://portfolio-snaf.onrender.com/)].
 
-![1](https://github.com/Anuk-1511/Portfolio/assets/61133543/f4dd4df2-55e1-459d-b8a4-904da1e1850c){:height="100px" width="100px"}
+![1](<img src = "https://github.com/Anuk-1511/Portfolio/assets/61133543/f4dd4df2-55e1-459d-b8a4-904da1e1850c" width="100" height="100">)
 
 ![2](https://github.com/Anuk-1511/Portfolio/assets/61133543/934f2043-3dc6-4a76-9b5f-2412154590d4)
 
