@@ -352,6 +352,19 @@ form textarea {
 .contact-button:hover {
   background: var(--hover);
 }
+.card {
+  width: 550px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 auto;
+  overflow: hidden; /* Add overflow property to contain the image */
+}
+
+.profile-img {
+  width: 100%; /* Change max-width to width */
+  height: auto; /* Reset height to auto */
+  border-radius: 4px;
+}
 .footer {
   display: grid;
   place-items: center;
@@ -483,6 +496,9 @@ form textarea {
     margin-left: auto;
     margin-right: auto;
   }
+  .card {
+    width: 400px;
+  }
 }
 
 
@@ -518,6 +534,9 @@ form textarea {
     margin-left: auto;
     margin-right: auto;
   }
+  .card {
+    width: 200px;
+  }
 }
 
 
@@ -548,6 +567,10 @@ form textarea {
   .home-img img {
     width: 240px;
     height: 350px;
+    
+  }
+  .card {
+    width: 350px;
   }
 }
 
@@ -634,48 +657,13 @@ form textarea {
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-.card {
-  width: 550px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin: 0 auto;
-  overflow: hidden; /* Add overflow property to contain the image */
-}
-
-.profile-img {
-  width: 100%; /* Change max-width to width */
-  height: auto; /* Reset height to auto */
-  border-radius: 4px;
-}
-
-
-/* Media query for 480px */
-@media only screen and  (min-width:341px) and(max-width: 480px) {
   .card {
     width: 300px;
   }
 }
 
-/* Media query for 340px */
-@media only screen and (min-width:1px) and (max-width: 340px) {
-  .card {
-    width: 250px;
-  }
-}
 
-/* Media query for 768px */
-@media only screen and (min-width:481px) and ( max-width: 768px) {
-  .card {
-    width: 350px;
-  }
-}
-@media only screen and (min-width:769px) and ( max-width: 1200px) {
-  .card {
-    width: 400px;
-  }
-}
+
 
 .mySlides {display: none}
 .certificate-image {vertical-align: middle;
