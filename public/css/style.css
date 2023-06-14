@@ -786,3 +786,17 @@ box-shadow: 5px 10px #888888;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+@media only screen and (max-width: 600px) {
+  .certificate-image {vertical-align: middle;
+height:330px;
+border-style: outset;
+box-shadow: 5px 10px #888888;}
+  }
+
+  @media only screen and (max-width: 768px) {
+    .certificate-image {vertical-align: middle;
+  height:370px;
+  border-style: outset;
+  box-shadow: 5px 10px #888888;}
+    }
