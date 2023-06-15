@@ -16,9 +16,9 @@
   --text-color: #0f0c27;
   --hover: hsl(260, 100%, 51%);
  
-  --big-font: 3.2rem;
-  --medium-font: 1.8rem;
-  --p-font: 0.941rem;
+  --big-font: 3.5rem;
+  --medium-font: 2.5rem;
+  --p-font: 1.5rem;
 }
 section {
   padding: 50px 10%;
@@ -736,6 +736,8 @@ box-shadow: 5px 10px #888888;}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
+
 
 /* Fading animation */
 .fade {
