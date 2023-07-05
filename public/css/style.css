@@ -838,7 +838,7 @@ box-shadow: 5px 10px #888888;}
     
     @media only screen and (max-width: 300px) {
       .slider {width: 100%;
-        position: sticky;
+
         margin-left:50px;
         margin-bottom:120px;
         display: flex;
@@ -848,7 +848,6 @@ box-shadow: 5px 10px #888888;}
     
     @media only screen and (max-width: 600px) {
        .slider {width: 100%;
-        position: sticky;
         margin-left:80px;
         margin-bottom:120px;
         display: flex;
@@ -858,7 +857,6 @@ box-shadow: 5px 10px #888888;}
     
       @media only screen and (max-width: 768px) {
         .slider {width: 100%;
-          position: sticky;
           margin-left:80px;
           margin-bottom:120px;
           display: flex;
