@@ -859,7 +859,7 @@ box-shadow: 5px 10px #888888;}
       @media only screen and (max-width: 768px) {
         .slider {width: 100%;
           position: sticky;
-          margin-left:120px;
+          margin-left:80px;
           margin-bottom:120px;
           display: flex;
           justify-content: center;
