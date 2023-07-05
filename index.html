@@ -271,88 +271,7 @@ align-items: center;">
 
     </section>
 
-    <section>
-      <br>
-
-      <div class="heading">
-        <h2>Bages/Achievement</h2>
-        <span>LeetCode/CodeStudio</span>
-        <br>
-    </div>
-      <div class="slider" >
-        <ul>
-            <li>
-                <img src="/badges/100.jpg" id="imgss"
-                    alt="100days">
-            </li>
-            <li>
-              <img src="/badges/algo1.jpg" id="imgss"
-                  alt="leetcode">
-          </li>
-          
-          <li>
-            <img src="/badges/algo-2.jpg" id="imgss"
-                alt="leetcode">
-        </li>
-        <li>
-          <img src="/badges/jun.jpg" id="imgss"
-              alt="leetcode">
-        </li>
-        <li>
-          <img src="/badges/oct.jpg" id="imgss"
-              alt="leetcode">
-      </li>
-
-          <li>
-            <img src="/badges/sep.jpg" id="imgss"
-                alt="leetcode">
-        </li>
-        <li>
-          <img src="/badges/ronin.jpg" id="imgss"
-              alt="leetcode">
-      </li>
-        <li>
-          <img src="/badges/topper.jpg" id="imgss"
-              alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/bs-2.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/data1.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/data2.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/dp.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/ronin2.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/samurai.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/samurai2.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-      <li>
-        <img src="/badges/sensai.jpg" id="imgss"
-            alt="leetcode">
-      </li>
-        </ul>
-      </div>
-      
-
-      
-    </section>
+  
     <section class="certificate" id="certificate">
       <br>
         <div class="heading">
@@ -562,23 +481,6 @@ const images = document.querySelectorAll('.certificate-image');
       modal.style.display = 'none';
     });
 
-    const slider = document.querySelector('.slider');
-const slides = slider.querySelectorAll('li');
-  
-// Store the total number of images
-const slideCount = slides.length;
-let activeSlide = 0;
-  
-// To change the images dynamically every 
-// 5 Secs, use SetInterval() method
-setInterval(() => {
-    slides[activeSlide].classList.remove('active');
-    activeSlide++;
-    if (activeSlide === slideCount) {
-        activeSlide = 0;
-    }
-    slides[activeSlide].classList.add('active');
-}, 2000);
-    </script>
+</script>
 </body>
 </html>
